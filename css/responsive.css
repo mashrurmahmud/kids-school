@@ -8,6 +8,16 @@
     .hamberger{
         display: block;
     }
+    .primary_nav{
+        padding: 20px;
+        border-bottom: 1px solid orange;
+    }
+    .school h1{
+        display: none;
+    }
+
+
+   
     
 }
 
