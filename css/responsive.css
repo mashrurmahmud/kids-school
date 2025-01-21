@@ -1,0 +1,19 @@
+@media screen and (max-width:574px) {
+    .menubar{
+        display: none;
+    }
+    .contact{
+        display: none;
+    }
+    .hamberger{
+        display: block;
+    }
+    
+}
+
+@media screen and (min-width:1400px) {
+    .hamberger{
+        display: none;
+    }
+    
+}

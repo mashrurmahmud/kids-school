@@ -1,4 +1,86 @@
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.primary_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+:root{
+    --primary-font: "Quicksand", serif;
+}
+
+.school{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.school h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
+    font-family: var(--primary-font);
     
 }
+
+.orange{
+    color: rgb(254, 163, 1);
+}
+.blue{
+    color: rgb(1, 172, 253);
+}
+.aqua{
+    color: rgb(5, 212, 223);
+}
+.bludiomond{
+    color: rgb(93, 88, 239);
+}
+
+.menubar ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.menubar a{
+    font-family: var(--primary-font);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    
+    margin-left: 22px;
+    text-decoration: none;
+}
+.btn-primary{
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    
+    
+    
+    line-height: 30px;
+    border: none;
+    padding: 10px 25px;
+}
+
+.btn-primary a{
+    font-size: 20px;
+    text-decoration: none;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
