@@ -350,6 +350,14 @@
 
 }
 
+.center{
+    text-align: center;
+}
+
+.bottom{
+    margin: 32px 0;
+}
+
 
 
 
@@ -419,6 +427,11 @@
     .grid-system{
         width: 100%;
         
+    }
+    .button{
+        position: absolute;
+        top: 134px;
+        left: 25px;
     }
     
     
