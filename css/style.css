@@ -265,6 +265,10 @@
     background-size: cover;
 }
 
+.grid-system{
+    width: 60%;
+}
+
 .stories h1{
     margin: 52px 0px;
 }
@@ -315,6 +319,35 @@
 .grid-1 .description{
     padding: 0px 30px;
     
+}
+
+.grid-1{
+    position: relative;
+}
+
+.button{
+    position: absolute;
+    top: 154px;
+    left: 25px;
+}
+
+.october{
+    background: rgb(149, 178, 38);
+    padding: 10px 23px;
+    display: inline-block;
+    border-radius: 15px;
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    font-size: 14px;
+    color: #ffff;
+    
+    
+
+}
+
+.grid-1:nth-child(2) span{
+    background: rgb(93, 88, 240);
+
 }
 
 
@@ -380,6 +413,14 @@
     .icon{
         display: none;
     }
+    .trainning{
+        display: none;
+    }
+    .grid-system{
+        width: 100%;
+        
+    }
+    
     
     
 
