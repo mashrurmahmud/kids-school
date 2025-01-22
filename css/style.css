@@ -438,6 +438,12 @@ footer{
     
 }
 
+.geek1{
+    font-size: 34px;
+    text-transform: uppercase;
+    font-family: var(--primary-font);
+}
+
 
 
 
