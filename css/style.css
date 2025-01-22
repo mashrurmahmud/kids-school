@@ -264,6 +264,7 @@
     font-size: 13px;
     font-weight: 500;
     margin: 32px 0px;
+    padding: 25px 0px;
     
 }
 .stories{
@@ -288,6 +289,8 @@
     border-radius: 15px;
     position: absolute;
     top: 258px;
+    font-family: var(--secondary-font);
+    margin-left: 23px;
 }
 
 .stories_container{
@@ -315,7 +318,8 @@
 .grid-1 h4{
     color: rgb(0, 0, 0);
     font-size: 15.07px;
-    margin-bottom: 23px;
+    padding: 23px 0px;
+    
 }
 
 
@@ -336,7 +340,7 @@
 
 .button{
     position: absolute;
-    top: 154px;
+    top: 161px;
     left: 25px;
 }
 
